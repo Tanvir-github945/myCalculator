@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="tasting 1.css">
+
+<script src="https://kit.fontawesome.com/484cdf8377.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="calculator">
+<h1>Tanvir</h1>
+<div class="calcHead">
+<input type="text" id="monitor" maxlength="10"/>
+</div>
+
+<div class="calcBody">
+<div class="btn">
+<input type="button" value=" C " onclick="clrResult()"/>
+<input type="button" value="+/-"/>
+<input type="button" value=" % "/>
+<input type="button" class="spDesign" value=" / "onclick="Number('/')"/>
+</div>
+<div class="btn">
+<input type="button" value="  7 " onclick="Number(7)"/>
+<input type="button" value=" 8 " onclick="Number(8)"/>
+<input type="button" value=" 9 " onclick="Number(9)"/>
+<input type="button" class="spDesign" value=" X " onclick="Number('*')"/>
+</div>
+<div class="btn">
+<input type="button" value="  4 " onclick="Number(4)"/>
+<input type="button" value=" 5 " onclick="Number(5)"/>
+<input type="button" value=" 6 " onclick="Number(6)"/>
+<input class="spBtn2" type="button" value=" - "onclick="Number('-')"/>
+</div>
+<div class="btn">
+<input type="button" value="  1 " onclick="Number(1)"/>
+<input type="button" value=" 2 " onclick="Number(2)"/>
+<input type="button" value=" 3 " onclick="Number(3)"/>
+<input type="button" class="spDesign" value=" + "onclick="Number('+')"/>
+</div>
+<div class="btn">
+<input type="button" value="  0 "/>
+<input type="button" value=" . " onclick="Number('.')"/>
+<input class="spBtn" type="button" value="DEL" onclick="deleteNum()"/>
+<input type="button" class="spBtn3 spDesign"value="=" onclick="calculate()"/>
+</div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="javaFile.js"></script>
+</body>
+</html>
